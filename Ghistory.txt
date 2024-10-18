@@ -425,3 +425,155 @@
   425  git init
   426  ls
   427  history > Ghistory.txt
+  428  ls
+  429  git ini
+  430  git init
+  431  git stats
+  432  git stat
+  433  git status
+  434  git add .
+  435  git status
+  436  git remote add origin git@github.com:KolobovBoris1/TestTask.git
+  437  git branch -M main
+  438  git push -u origin main
+  439  git commit "New task"
+  440  git status
+  441  git commit "New task"
+  442  git commit -m "New task"
+  443  git remote add origin git@github.com:KolobovBoris1/TestTask.git
+  444  git branch -M main
+  445  git push -u origin main
+  446  touch script.txt
+  447  ls
+  448  nano script
+  449  cd -
+  450  ls
+  451  cd test
+  452  ls
+  453  nano script.txt
+  454  cd -
+  455  cd gites
+  456  ls
+  457  nano script.txt
+  458  git status
+  459  mkdir devs
+  460  ls
+  461  cd devs
+  462  cd -
+  463  mv script.txt > ~/gites/devs
+  464  ls
+  465  mv script.txt > /home/gutteridge/gites/devs
+  466  mv script.txt > devs
+  467  cd devs
+  468  touch script.txt
+  469  cd -
+  470  mv script.txt > /home/gutteridge/gites/devs/script.txt
+  471  mv --help
+  472  cd devs
+  473  ls
+  474  rm script.txt
+  475  cd -
+  476  mv script.txt devs
+  477  ls
+  478  cd devs
+  479  ls
+  480  git init
+  481  git status
+  482  git commit "script to dev"
+  483  git add .
+  484  git commit "script to dev"
+  485  git status
+  486  git commit --help
+  487  git commit -m "script to dev"
+  488  git branch -m dev
+  489  git push -u origin dev
+  490  git branch -m dev
+  491* git push -u o dev
+  492  git push -u origin main dev
+  493  git push --help
+  494  git checkout dev
+  495  git status
+  496* gi
+  497  git status
+  498  git checkout master
+  499  git checkout main
+  500  git checkout
+  501  ls
+  502  git status
+  503  git add .
+  504  ls
+  505  git status
+  506  cd -
+  507  ls
+  508  cd -
+  509  cd ~
+  510  ls
+  511  cd gites
+  512  ls
+  513  cd devs
+  514  ls
+  515  touch scriptdev.txt
+  516  ls
+  517  cp script.txt scriptdev.txt
+  518  ls
+  519  nano scriptdev.txt 
+  520  git status
+  521  git add .
+  522  git status
+  523  git commit -m "Script dev"
+  524  git push origin dev
+  525  git init
+  526  git push origin dev
+  527  git status
+  528  git branch -m dev
+  529  git push origin dev
+  530  git push origin main
+  531  git push -u origin dev
+  532  git push -u origin main
+  533  git reset script.txt
+  534  git status
+  535  ls
+  536  git reset --soft script.txt
+  537  git remote -v
+  538  cd -
+  539  git remote -v
+  540  cd -
+  541  git remote add origin git@github.com:KolobovBoris1/TestTask.git
+  542  git status
+  543  cp script.txt scriptdev.txt
+  544  ls
+  545  nano scriptdev.txt 
+  546  git init
+  547  git status
+  548  git remote -v
+  549  git add script.txt
+  550  git status
+  551  rm scriptdev.txt
+  552  git status
+  553  touch scrdev.txt
+  554  cp script.txt scrdev.txt
+  555  nano  scrdev.txt 
+  556  ls
+  557  git add scrdev.txt 
+  558  git status 
+  559  git commit -m "Script add to dev Rep"
+  560  git branch -m dev
+  561  git push -u origin dev
+  562  git checkout dev
+  563  git fetch origin dev
+  564  git push -u origin dev
+  565  git pull origin dev
+  566  git status
+  567  git add /
+  568  git add .
+  569  git status
+  570  git coomit -m "Script to Rep dev"
+  571  git commit -m "Script to Rep dev"
+  572  git branch -m dev
+  573  git push -u origin dev
+  574  git push -u origin dev --force
+  575  cd -
+  576  ls
+  577  git init
+  578  git status
+  579  history > Ghistory.txt
