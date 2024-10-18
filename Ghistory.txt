@@ -1,0 +1,427 @@
+    1  pwd
+    2  mkdir test
+    3  pwd
+    4  cd test
+    5  pwd
+    6  who
+    7  cd -
+    8  who
+    9  cd test
+   10  man bash
+   11  touch hello.sh
+   12  nano hello.sh
+   13  # which bash
+   14  #!/bin/bash
+   15  # bash hello.sh
+   16  cd -
+   17  # bash hello.sh
+   18  cd test
+   19  bash hello.sh
+   20  nano hello.sh
+   21  bash hello.sh
+   22  touch disc.sh
+   23  nano disk.sh
+   24  bash disk.sh
+   25  nano disk.sh
+   26  bash disk.sh
+   27  nano disk.sh
+   28  bash disk.sh
+   29  nano disk.sh
+   30  bash disk.sh
+   31  nano disk.sh
+   32  bash disk.sh
+   33  nano disk.sh
+   34  bash disk.sh
+   35  nano disk.sh
+   36  bash disk.sh
+   37  nano disk.sh
+   38  bash disk.sh
+   39  nano disk.sh
+   40  git --version
+   41  sudo apt update
+   42  sudo apt install git
+   43  sudo systemctl edit --force --full script.service
+   44  sudo systemctl enable script
+   45  git config --global user.name [KolobovBoris1]
+   46  git config --global user.email [kolobovboris1@gmail.com]
+   47  git config --list
+   48  mkdir -p ~/git/dev
+   49  cd dev
+   50  cd ~/git/dev
+   51  cd -
+   52  cd git
+   53  cd ~/git
+   54  mkdir -p ~/git/main
+   55  cd ~/git/main
+   56  touch  file
+   57  nano file
+   58  rm file
+   59  history > ~/git/main/history.txt
+   60  nano history.txt
+   61  git init -b main
+   62  git add history.txt
+   63  git commit -m "History of command"
+   64  gh repo create
+   65  sudo snap install gh
+   66  gh repo create
+   67  gh auth login
+   68  git remote add origin https://github.com/KolobovBoris1/History.git
+   69  git remote -v
+   70  git push origin main
+   71  git init
+   72  git init -b main
+   73  history > ~/git/main/.git/history.txt
+   74  git add .
+   75  git commit -m "History"
+   76  cd ~git/main/.git
+   77  cd ~git/main/ .git
+   78  git add history.txt
+   79  git commit -m "History"
+   80  git add ~/git/main/history.txt
+   81  git commit -m "History"
+   82  nano history.txt
+   83  git add ~/git/main/history.txt
+   84  git commit -m "History"
+   85  git init -b main
+   86  nano history.txt
+   87  git add history.txt
+   88  git commit "History"
+   89  rm git
+   90  rm -r git
+   91  rm main
+   92  cd -
+   93  cd ~user
+   94  cd
+   95  rm git
+   96  rm -r git
+   97  rmdir git
+   98  rmdir -rf git
+   99  rmd -rf git
+  100  rm -rf git
+  101  cd test
+  102  git init
+  103  git config
+  104  sudo apt install git
+  105  git config
+  106  git config -- global user.name "KolobovBoris1"
+  107  git config --global user.name "KolobovBoris1"
+  108  git config --global user.email "kolobovboris1@gmail.com@
+  109  git init
+  110  cd -
+  111  cd test
+  112  nano history.txt
+  113  history
+  114  history > ~/test/history.txt
+  115  nano history.txt
+  116  git init
+  117  git add history.txt
+  118  git commit -m "History"
+  119  git remote add origin https://github.com/KolobovBoris1/History.git
+  120  git push -u origin main
+  121  git config
+  122  git remote -v
+  123  git remote add origin https://github.com/KolobovBoris1/History2.git
+  124  git init
+  125  git remote add origin https://github.com/KolobovBoris1/History2.git
+  126  git remote rm https://github.com/KolobovBoris1/History.git
+  127  git remote add origin https://github.com/KolobovBoris1/History2.git
+  128  git remote rm origin https://github.com/KolobovBoris1/History.git
+  129  git remote add origin https://github.com/KolobovBoris1/History2.git
+  130  git remote remove https://github.com/KolobovBoris1/History.git
+  131  git remote rm origin
+  132  git remote add origin https://github.com/KolobovBoris1/History2.git
+  133  git remote -v
+  134  git push -u origin main
+  135  git push
+  136  git push origin main
+  137  git push origin master:master
+  138  ssh-keygen -t rsa -b 4096 -C "kolobovboris1@gmail.com"
+  139  cat `/.ssh/SSHkey.pub
+  140  `
+  141  cd /test
+  142  cd ~/test
+  143  cat ~/.ssh/SSHkey.pub 
+  144  ssh-keygen -t rsa -b 4096 -C "kolobovboris1@gmail.com"
+  145  git clone git@github.com:KolobovBoris1/History2.git
+  146  git pull
+  147  git add history.txt
+  148  nano history.txt
+  149  cd History2
+  150  git add history.txt
+  151  git add history > history.txt
+  152  git add ~/test/history.txt
+  153  history > ~/test/History2/historygit.txt
+  154  git add historygit.txt
+  155  git commit -m "Новый файл: historygit"
+  156  git push origin main
+  157  history > ~/test/History2/historygit.txt
+  158  nano historygit.txt
+  159  pwd
+  160  cd
+  161  more cd
+  162  more pwd
+  163  more test
+  164  ls
+  165  cd snap
+  166  ls
+  167  cd
+  168  cd test
+  169  ls
+  170  nano disk.sh
+  171  nano disc.sh
+  172  rm disc.sh
+  173  ls
+  174  nano disk.sh
+  175  bash disk.sh
+  176  ls
+  177  cd-
+  178  cd -
+  179  ls
+  180  cd test
+  181  ls
+  182  sudo nano /etc/systemd/system/myscript.service
+  183  pwd
+  184  sudo nano /etc/systemd/system/myscript.service
+  185  sudo systemctl daemon-reload
+  186  sudo systemctl enable myscript.service
+  187  sudo systemctl start myscript.service
+  188  sudo nano /etc/systemd/system/myscript.service
+  189  sudo systemctl start myscript.service
+  190  sudo systemctl daemon-reload
+  191  sudo systemctl enable myscript.service
+  192  sudo systemctl start myscript.service
+  193  sudo nano /etc/systemd/system/myscript.service
+  194  pwd
+  195  sudo nano /etc/systemd/system/myscript.service
+  196  sudo systemctl daemon-reload
+  197  sudo systemctl start myscript.service
+  198  history > ~/test/History2/historygit.txt
+  199  myscript.service > ~/test/History2/script.txt 
+  200  sudo nano /etc/systemd/system/myscript.service
+  201  chmod +x /home/gutteridge/test/disk.sh
+  202  sudo systemctl start myscript.service
+  203  sudo nano /etc/systemd/system/myscript.service
+  204  cd ~/etc/systemd/system
+  205  sudo systemctl start myscript.service
+  206  cp /etc/systemd/system/myscript.service /test/History2/script.txt
+  207  cd History2
+  208  touch script.txt
+  209  ls
+  210  cd -
+  211  cp /etc/systemd/system/myscript.service /test/History2/script.txt
+  212  cp /etc/systemd/system/myscript.service script.txt
+  213  /etc/systemd/system/script.txt > ~/test/History2/
+  214  /etc/systemd/system/script.txt > ~/test/History2/script.txt
+  215  ~/etc/systemd/system/script.txt > ~/test/History2/script.txt
+  216  sudo systemctl start myscript.service
+  217  sudo nano /etc/systemd/system/myscript.service
+  218  sudo systemctl start myscript.service
+  219  sudo systemctl daemon-reload
+  220  sudo systemctl enable myscript.service
+  221  sudo nano /etc/systemd/system/myscript.service
+  222  sudo systemctl start myscript.service
+  223  sudo nano /etc/systemd/system/myscript.service
+  224  sudo systemctl daemon-reload
+  225  sudo systemctl start myscript.service
+  226  cd test
+  227  ls
+  228  nano disk.sh
+  229  bash disk.sh
+  230  pwd
+  231  sudo nano /etc/systemd/system/myscript.service
+  232  sudo systemctl daemon-reload
+  233  sudo systemctl start myscript.service
+  234  crontab -e
+  235  crontab -e 4
+  236  crontab -e
+  237  sudo su
+  238  ls
+  239  test
+  240  cd test
+  241  ls
+  242  history
+  243  history > ~/test/History2/historygit.txt
+  244  cd History2
+  245  git add /
+  246  git add .
+  247  git commit -m "Редактировал: historygit"
+  248  git push origin main
+  249  sudo nano /etc/systemd/system/myscript.service
+  250  cd -
+  251  ls
+  252  nano disk.sh
+  253  df
+  254  cd test
+  255  ls
+  256  bash disk.sh
+  257  fd
+  258  ls
+  259  cd test
+  260  ls
+  261  git init -b dev
+  262  touch testgit.txt
+  263  nano testgit.txt
+  264  git add testgit.txt
+  265  git commit -m "test dev"
+  266  git push origin dev
+  267  git push origin master:master
+  268  git branch -vv
+  269  git push
+  270  git push origin master
+  271  git clone git@github.com:KolobovBoris1/History2.git
+  272  git push origin main
+  273  git clone ssh://kolobovboris1@gmail.com/History2/dev.git
+  274  mv ~/.ssh/id_ed25519 ~/.ssh/personal_key
+  275  ls
+  276  cd test
+  277  ls
+  278  nano SSHkey.pub
+  279  cd -
+  280  nano ~/.ssh/config
+  281  git remote -v
+  282  cd test
+  283  git remote -v
+  284  nano SSHkey.pub
+  285  nano SSHkey
+  286  git clone
+  287  ssh -v
+  288  cd %USERPROFILE%/.ssh/
+  289  %USERPROFILE%/.ssh/
+  290  cd %gutteridge%/.ssh/
+  291  ls loga
+  292  ls -loga
+  293  cat SSHkey.pub
+  294  nano ~/.ssh/config
+  295  git remote add origin git@github.com:KolobovBoris1/History2.git
+  296  cat .git/config
+  297  git status
+  298  git add testgit.txt
+  299  history > history2.txt
+  300  git commit -m "Test dev"
+  301  ls
+  302  nano testgit.txt
+  303  git init
+  304  git status
+  305  nano script.txt
+  306  nano disk.sh
+  307  ls
+  308  rm testgit.txt
+  309  ls
+  310  touch testGhub.txt
+  311  ls
+  312  nano testGhub.txt
+  313  git status
+  314  git add testGhub.txt
+  315  git status
+  316  git commit "Dev test"
+  317  git push origin dev
+  318  git push origin main
+  319  git push origin master
+  320  git clone git@github.com:KolobovBoris1/History2.git
+  321  git pull
+  322  ls
+  323  cd History2
+  324  ls
+  325  cd -
+  326  ls
+  327  rm testGhub.txt
+  328  ls
+  329  mv history2.txt ~/gutteridge/test/History2
+  330  cd History2
+  331  pwm
+  332  pwd
+  333  mv history2.txt ~/home/gutteridge/test/History2
+  334  mv history2.txt /home/gutteridge/test/History2
+  335  cd -
+  336  mv history2.txt /home/gutteridge/test/History2
+  337  ls
+  338  cd History2
+  339  ls
+  340  nano historygit.txt
+  341  nano history2.txt
+  342  rm history2.txt
+  343  ls
+  344  git init
+  345  git status
+  346  touch gittest.txt
+  347  nano gittest.txt
+  348  git status
+  349  add .
+  350  git add .
+  351  git status
+  352  git push origin main
+  353  git push origin master
+  354  git push origin dev
+  355  git clone git@github.com:KolobovBoris1/History2.git
+  356  ssh -add -d
+  357  ssh-add -d
+  358  cd ~/.ssh
+  359  ls
+  360  mrdir .ssh
+  361  mkdir ~/.ssh
+  362  rmdir ~/.ssh
+  363  rm config
+  364  ls
+  365  rm id_rsa
+  366  rm id_rsa.pub
+  367  rm known_hosts
+  368  rm known_hosts.old
+  369  ls
+  370  cd -
+  371  sudo service ssh restart
+  372  dir
+  373  cd ~/.ssh
+  374  dir
+  375  ls
+  376  cd -
+  377  ssh-keygen -t ed25519 -c "kolobovboris1@gmail.com"
+  378  cd test
+  379  ls
+  380  rm SSHkey.pub
+  381  rm SSHkey
+  382  rm hello.sh
+  383  cd History2
+  384  ls
+  385  rm /
+  386  rm .
+  387  cd -
+  388  rmdir History2
+  389  rm -rf History2
+  390  ls
+  391  clean
+  392  cd -
+  393  cd ~
+  394  chmod 600 ~/.ssh/personal_key
+  395  ssh-keygen -t ed25519
+  396  cd ~/.ssh/
+  397  ls
+  398  cd -
+  399  ls
+  400  mv SSHkey ~/.ssh
+  401  mv SSHkey.pub ~/.ssh
+  402  ls
+  403  cd ~/.ssh/
+  404  ls
+  405  touch config
+  406  ls
+  407  nano config
+  408  nano SSHkey.pub
+  409  git remote -v
+  410  cd -
+  411  git remote -v
+  412  cd test
+  413  git remote -v
+  414  ls
+  415  cd -
+  416  ls
+  417  touch gits
+  418  ls
+  419  cd gits
+  420  rm gits
+  421  ls
+  422  mkdir gites
+  423  ls
+  424  cd gites
+  425  git init
+  426  ls
+  427  history > Ghistory.txt
