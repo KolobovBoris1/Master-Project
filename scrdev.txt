@@ -1,0 +1,10 @@
+ini
+[Unit]
+Description=Запуск моего скрипта при старте
+[Service]
+ExecStart=/home/gutteridge/test/disk.sh
+Type=simple
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target
+
