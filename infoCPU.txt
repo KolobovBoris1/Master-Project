@@ -1,0 +1,57 @@
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.0G     0  3.0G   0% /usr/lib/modules/5.15.153.1-microsoft-standard-WSL2
+none            3.0G  4.0K  3.0G   1% /mnt/wsl
+drivers         477G  139G  339G  30% /usr/lib/wsl/drivers
+/dev/sdc       1007G  1.9G  954G   1% /
+none            3.0G     0  3.0G   0% /usr/lib/wsl/lib
+rootfs          3.0G  2.2M  3.0G   1% /init
+none            3.0G  736K  3.0G   1% /run
+none            3.0G     0  3.0G   0% /run/lock
+none            3.0G     0  3.0G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+C:\             477G  139G  339G  30% /mnt/c
+D:\             932G  440G  492G  48% /mnt/d
+E:\             463G  142G  322G  31% /mnt/e
+snapfuse         56M   56M     0 100% /snap/core18/2846
+snapfuse         37M   37M     0 100% /snap/gh/502
+snapfuse         39M   39M     0 100% /snap/snapd/21759
+User:
+DESKTOP-62KH509
+CPU:
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             8
+On-line CPU(s) list:                0-7
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD Ryzen 7 3800XT 8-Core Processor
+CPU family:                         23
+Model:                              113
+Thread(s) per core:                 2
+Core(s) per socket:                 4
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           7800.02
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr virt_ssbd arat umip rdpid
+Hypervisor vendor:                  Microsoft
+Virtualization type:                full
+L1d cache:                          128 KiB (4 instances)
+L1i cache:                          128 KiB (4 instances)
+L2 cache:                           2 MiB (4 instances)
+L3 cache:                           16 MiB (1 instance)
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Time:
+Sun Oct 20 11:51:54 +05 2024
