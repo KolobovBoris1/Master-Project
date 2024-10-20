@@ -1,0 +1,10 @@
+[Unit]
+Description=MYSTART
+After=network.target
+[Service]
+ExecStart=/home/gutteridge/gites/devs/disk.sh
+Type=oneshot
+RemainAfterExit=true
+User=root
+[Install]
+WantedBy=multi-user.target
