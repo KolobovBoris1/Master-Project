@@ -32,6 +32,7 @@ Ki_iq = 900;     % Integrator gain iq controller 900
 Kp_omega = 1.2;     % Proportional gain velocity controller 1.2
 Ki_omega = 80;      % Integrator gain velocity controller 80
 
+Tpos = 0.1;         % Time to go to position for pos PID [s]
 Kp_pos = 1.2;       % Proportional gain position controller 1.2
 Ki_pos = 0;         % Integrator gain position controller 0
 Kd_pos = 0;         % Derivative gain position controller 0
