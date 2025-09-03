@@ -24,18 +24,18 @@ fsw  = 10e3;       % PMSM drive switching frequency     [Hz]
 Tsi  = 1e-4;       % Sample time for inner control loop [s]
 Tso  = 1e-3;       % Sample time for outer control loop [s]
 
-Kp_id = 0.6;     % Proportional gain id controller
-Ki_id = 1300;     % Integrator gain id controller
-Kp_iq = 0.6;     % Proportional gain iq controller
-Ki_iq = 1050;     % Integrator gain iq controller
+Kp_id = 0.4;     % Proportional gain id controller 0.4
+Ki_id = 1300;     % Integrator gain id controller 1300
+Kp_iq = 0.6;     % Proportional gain iq controller 0.6
+Ki_iq = 900;     % Integrator gain iq controller 900
 
-Kp_omega = 2.0;     % Proportional gain velocity controller
-Ki_omega = 150;      % Integrator gain velocity controller
+Kp_omega = 1.2;     % Proportional gain velocity controller 1.2
+Ki_omega = 80;      % Integrator gain velocity controller 80
 
-Kp_pos = 1.2;       % Proportional gain position controller
-Ki_pos = 0;         % Integrator gain position controller
-Kd_pos = 0;         % Derivative gain position controller
-Kn_pos = 100;       % Filter coefficient
+Kp_pos = 1.2;       % Proportional gain position controller 1.2
+Ki_pos = 0;         % Integrator gain position controller 0
+Kd_pos = 0;         % Derivative gain position controller 0
+Kn_pos = 100;       % Filter coefficient 100
 
 %% Zero-Cancellation Transfer Functions
 numd_id = Tsi/(Kp_id/Ki_id);
